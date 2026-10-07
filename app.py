@@ -1,29 +1,3 @@
-"""
-Codon Usage Fingerprint — Streamlit Dashboard
-CSE4889 Machine Learning | Team: The Outliers | Deadline: Oct 3, 2026
-
-HOW TO RUN:
-    pip install streamlit joblib scikit-learn minisom pandas numpy matplotlib seaborn
-    streamlit run app.py
-
-ARTIFACTS EXPECTED (same folder as app.py):
-    X_train.csv, X_test.csv, y_train.csv, y_test.csv
-    pca_model.pkl, pca_scaler.pkl
-    pca_train_coords.csv, pca_test_coords.csv
-    som_bmu_coords.csv
-    svm_model.pkl, custom_rf_model.pkl
-    rf_feature_importance.csv
-    classifier_comparison_table.csv
-    vrl_misclassified_proba.csv
-    custom_rf_model.pkl
-    custom_rf_comparison.csv
-    custom_rf_perclass_f1.csv
-    host_mimicry_scores.csv
-    ablation_feature_sets.csv          ← NEW
-    weight_justification.csv           ← NEW
-    species_names.csv                  ← NEW (organism display names)
-"""
-
 import os
 import warnings
 warnings.filterwarnings("ignore")
